@@ -458,4 +458,7 @@
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="n" />
 
+  <!-- Nougat vendor -->
+  <project path="vendor/nougat" name="LiquidNougat/vendor_nougat" remote="github" revision="ng" />
+
 </manifest>
