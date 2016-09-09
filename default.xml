@@ -451,12 +451,14 @@
   <!-- Angler device -->
   <project path="device/huawei/angler" name="LiquidNougat/device_huawei_angler" remote="github" revision="ng" />
 
-  <!-- Custom toolchains -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-4.9" name="DespairFactor/aarch64-linux-android-4.9-kernel-linaro" remote="bb" revision="master" />
+  <!-- Build toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
 
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="n" />
+
+  <!-- Kernel toolchain -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" remote="bb" revision="master" />
 
   <!-- Nougat vendor -->
   <project path="vendor/nougat" name="LiquidNougat/vendor_nougat" remote="github" revision="ng" />
