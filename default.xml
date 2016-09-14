@@ -357,7 +357,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="LiquidNougat/packages_apps_PackageInstaller" remote="github" revision="ng" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="LiquidNougat/packages_apps_PhoneCommon" remote="github" revision="ng" />
   <project path="packages/apps/Settings" name="LiquidNougat/packages_apps_Settings" remote="github" revision="ng" />
