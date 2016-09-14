@@ -169,7 +169,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="LiquidNougat/external_libpng" remote="github" revision="ng" />
+  <project path="external/libpng" name="BenzoRoms/external_libpng" remote="github" revision="nougat" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="LiquidNougat/external_libunwind_llvm" remote="github" revision="ng" />
@@ -349,7 +349,7 @@
   <project path="packages/apps/ContactsCommon" name="LiquidNougat/packages_apps_ContactsCommon" remote="github" revision="ng" />
   <project path="packages/apps/Dialer" name="LiquidNougat/packages_apps_Dialer" remote="github" revision="ng" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
-  <project path="packages/apps/Gallery2" name="LiquidNougat/packages_apps_Gallery2" remote="github" revision="ng" />
+  <project path="packages/apps/Gallery2" name="BenzoRoms/packages_apps_Gallery2" remote="github" revision="nougat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
