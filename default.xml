@@ -329,7 +329,6 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
@@ -456,6 +455,9 @@
 
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="n" />
+
+  <!-- Kernel source -->
+  <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="release" />
 
   <!-- Kernel toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" remote="bb" revision="master" />
