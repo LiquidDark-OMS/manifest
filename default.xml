@@ -59,7 +59,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+  <project path="external/chromium-webview" name="BenzoRoms/external_chromium-webview" remote="github" revision="nougat" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -262,7 +262,7 @@
   <project path="external/tpm2" name="platform/external/tpm2" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" />
+  <project path="external/v8" name="BenzoRoms/external_v8" remote="github" revision="nougat" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
