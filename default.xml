@@ -454,7 +454,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
 
   <!-- Huawei vendor -->
-  <project path="vendor/huawei" name="PureNexusProject/proprietary_vendor_huawei" remote="github" revision="n" />
+  <project path="vendor/huawei" name="PureAndroidProject/proprietary_vendor_huawei" remote="github" revision="n" />
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="release" />
