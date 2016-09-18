@@ -459,8 +459,9 @@
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="release" />
 
-  <!-- Kernel toolchain -->
+  <!-- Kernel toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="sabermod" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
 
   <!-- Nougat vendor -->
   <project path="vendor/nougat" name="LiquidNougat/vendor_nougat" remote="github" revision="ng" />
