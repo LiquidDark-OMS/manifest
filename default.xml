@@ -451,7 +451,7 @@
   <project path="device/huawei/angler" name="LiquidNougat/device_huawei_angler" remote="github" revision="ng" />
 
   <!-- Build toolchain -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" clone-depth="1" />
 
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="nougat" />
@@ -461,7 +461,6 @@
 
   <!-- Kernel toolchains -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="xanaxdroid/aarch64-6.2" remote="bb" revision="sabermod" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-7.0" name="xanaxdroid/aarch64-7.0" remote="bb" revision="sabermod" clone-depth="1" />
 
   <!-- Nougat vendor -->
   <project path="vendor/nougat" name="LiquidNougat/vendor_nougat" remote="github" revision="ng" />
