@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
+  <project path="build/kati" name="LiquidNougat/build_kati" remote="github" revision="ng" />
   <project path="build/soong" name="LiquidNougat/build_soong" remote="github" revision="ng" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
