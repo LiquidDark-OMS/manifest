@@ -1,5 +1,13 @@
-LiquidNougat Github
+
+LiquidDark Source 
+----------------------
+
+<img src="https://raw.githubusercontent.com/LiquidDark-OMS/android/mm6.0/LiquidDark-Logo.png">
 ===================
+
+Thanks 
+- liquid0624
+and more
 
 Build Environment
 --------------------
@@ -10,28 +18,43 @@ Build Environment
 
 Initialize Source
 --------------------
-(Assuming you have a valid build environment setup)
-- mkdir nougat (or whatever you want to name the source folder)
-- cd ~/nougat
-- repo init -u https://github.com/LiquidNougat/manifest.git -b ng
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/liquid
+    
+    Enter the following to download the "repo" binary:
+
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+    chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/liquid
+
+    repo init -u git://github.com/LiquidDark-OMS/android.git -b ng
 
 Sync Source
 --------------------
-- repo sync -jx -f (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
+    repo sync -jx -f (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
 
 Build Source
 --------------------
-- . build/envsetup.sh
+   . build/envsetup.sh
 
 Choose Device
 --------------------
-- lunch nougat_angler-userdebug
+    lunch nougat_bullhead-userdebug
 
 Clean Builds
 --------------------
-- cd ~/nougat
+- cd ~/liquid
 - repo sync -jx -f (x being however many cpu jobs, may also use -c as above)
 - lunch and pick the right device (refer to above for choosing right device to build)
 - make clean
-- mka nougat
+- mka liquid
 ﻿
