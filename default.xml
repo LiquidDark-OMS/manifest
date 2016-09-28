@@ -452,7 +452,7 @@
 
   <!--Device -->
   <project path="device/huawei/angler" name="LiquidNougat/device_huawei_angler" remote="github" revision="ng" />
-  <project path="device/lge/bullhead" name="TREX-ROM/device_lge_bullhead" remote="github" revision="ng" />  
+  <project path="device/lge/bullhead" name="TREX-ROM/android_device_lge_bullhead" remote="github" revision="ng" />  
 
   <!-- Build toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
