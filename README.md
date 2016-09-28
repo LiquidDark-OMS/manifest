@@ -36,7 +36,7 @@ Now enter the following to initialize the repository:
 
     cd ~/liquid
 
-    repo init -u git://github.com/LiquidDark-OMS/android.git -b ng
+    repo init -u git://github.com/LiquidDark-OMS/manifest.git -b ng
 
 Sync Source
 --------------------
