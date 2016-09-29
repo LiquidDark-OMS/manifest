@@ -456,7 +456,7 @@
 
   <!-- Build toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" remote="bb" revision="master" />
-  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <!-- Devices vendor -->
   <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="nougat" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-14.0" />
