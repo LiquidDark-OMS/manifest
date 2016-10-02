@@ -481,6 +481,9 @@
   <!-- Huawei vendor -->
   <project path="vendor/huawei" name="vendor_huawei_angler" remote="benzo" revision="nougat" />
 
+  <!-- Kernel source -->
+  <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
+
   <!-- Kernel toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
 
