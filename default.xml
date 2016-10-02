@@ -10,6 +10,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="nougat"
+           fetch="https://github.com/LiquidNougat/" />
+
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-c="true"
