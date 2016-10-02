@@ -27,7 +27,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="ld" revision="ng" >
+  <project path="build" name="build" groups="pdk,tradefed" remote="ld" revision="ng" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
