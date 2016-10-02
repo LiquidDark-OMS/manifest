@@ -472,6 +472,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- Angler device -->
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="nougat" revision="ng" />
+
   <!-- Build toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
 
