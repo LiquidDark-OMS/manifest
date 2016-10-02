@@ -1,6 +1,11 @@
 LiquidNougat Github
 ===================
 
+Thanks
+
+    liquid0624
+
+
 Build Environment
 --------------------
 - Official build environment as per Google and AOSP [Android source page](http://source.android.com/source/index.html)
@@ -11,9 +16,9 @@ Build Environment
 Initialize Source
 --------------------
 (Assuming you have a valid build environment setup)
-- mkdir nougat (or whatever you want to name the source folder)
-- cd ~/nougat
-- repo init -u https://github.com/LiquidNougat/manifest.git -b ng
+- mkdir liquid (or whatever you want to name the source folder)
+- cd ~/liquid
+- repo init -u https://github.com/LiquidDark-OMS/manifest.git -b ng
 
 Sync Source
 --------------------
@@ -29,7 +34,7 @@ Choose Device
 
 Clean Builds
 --------------------
-- cd ~/nougat
+- cd ~/liquid
 - repo sync -jx -f (x being however many cpu jobs, may also use -c as above)
 - lunch and pick the right device (refer to above for choosing right device to build)
 - make clean

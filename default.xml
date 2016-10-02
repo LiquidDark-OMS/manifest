@@ -6,9 +6,18 @@
 
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
+           
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />          
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
+  <remote  name="ld"
+           fetch="https://github.com/LiquidDark-OMS/" />
+     
+  <remote  name="tr"
+           fetch="https://github.com/TREX-ROM/" />                    
 
   <remote  name="nougat"
            fetch="https://github.com/LiquidNougat/" />
@@ -18,7 +27,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="nougat" revision="ng" >
+  <project path="build" name="platform/build" groups="pdk,tradefed" remote="ld" revision="ng" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -469,22 +478,25 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- Angler device -->
+  <!-- Device -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="nougat" revision="ng" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="tr" revision="ng" />
 
   <!-- Build toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
 
-  <!-- Huawei vendor -->
+  <!-- Device vendor -->
   <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="nougat" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-14.0" />
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
+  <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" remote="github" revision="staging/cm-14.0" />
 
   <!-- Kernel toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
 
   <!-- Nougat vendor -->
-  <project path="vendor/nougat" name="vendor_nougat" remote="nougat" revision="ng" />
+  <project path="vendor/nougat" name="vendor_nougat" remote="ld" revision="ng" />
 
 </manifest>
