@@ -10,9 +10,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="benzo"
-           fetch="https://github.com/BenzoRoms/" />
-
   <remote  name="nougat"
            fetch="https://github.com/LiquidNougat/" />
 
@@ -88,7 +85,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="benzo" revision="nougat" />
+  <project path="external/chromium-webview" name="BenzoRoms/external_chromium-webview" groups="pdk" remote="github" revision="nougat" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -479,7 +476,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
 
   <!-- Huawei vendor -->
-  <project path="vendor/huawei" name="vendor_huawei_angler" remote="benzo" revision="nougat" />
+  <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="nougat" />
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
