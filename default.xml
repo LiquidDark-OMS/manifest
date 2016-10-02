@@ -18,12 +18,12 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="platform/build" groups="pdk,tradefed" remote="nougat" revision="ng" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="nougat" revision="ng" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
