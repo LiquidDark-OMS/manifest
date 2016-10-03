@@ -510,7 +510,7 @@
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
-  <project path="kernel/lge/bullhead" name="CyanogenMod/android_kernel_lge_bullhead" remote="github" revision="staging/cm-14.0" />
+  <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="n" />
 
   <!-- Kernel toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
