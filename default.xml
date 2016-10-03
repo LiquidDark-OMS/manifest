@@ -502,14 +502,11 @@
   <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" /> -->
 
   <!-- Device vendor -->
-  <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" remote="github" revision="nougat" />
+  <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" groups="pdk" remote="github" revision="nougat" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-14.0" />
 
   <!-- Dragon toolchain -->
   <project path="platform/prebuilts/clang/host/linux-x86/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
-
-  <!-- Huawei vendor -->
-  <project path="vendor/huawei" name="BenzoRoms/vendor_huawei_angler" groups="pdk" remote="github" revision="nougat" />
 
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
