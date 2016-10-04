@@ -497,6 +497,7 @@
   <!-- Device -->
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="nougat" revision="ng" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="tr" revision="ng" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="tr" revision="ng" />
 
   <!-- Build toolchain -->
   <!-- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="DespairFactor/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" /> -->
@@ -511,6 +512,7 @@
   <!-- Kernel source -->
   <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="n" />
+  <project path="kernel/lge/hammerhead" name="nitrogen-os-devices/nitrogen_kernel_lge_hammerhead" remote="github" revision="n" />  
 
   <!-- Kernel toolchain -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.2" name="DespairFactor/aarch64-linux-android-6.x-kernel-linaro" groups="pdk,linux,arm" remote="bb" revision="master" clone-depth="1" />
