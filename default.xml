@@ -22,7 +22,7 @@
   <remote  name="nougat"
            fetch="https://github.com/LiquidNougat/" />
 
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r13"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
