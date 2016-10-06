@@ -510,7 +510,7 @@
   <project path="platform/prebuilts/clang/host/linux-x86/3.8" name="xanaxdroid/dragontc-3.8" groups="pdk,linux" remote="bb" revision="dragon-tc" clone-depth="1" />
 
   <!-- Kernel source -->
-  <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="staging" />
+  <project path="kernel/huawei/angler" name="nathanchance/Ninja-Kernel-Angler" remote="github" revision="release" />
   <project path="kernel/lge/bullhead" name="DespairFactor/bullhead" remote="github" revision="n" />
   <project path="kernel/lge/hammerhead" name="nitrogen-os-devices/android_kernel_lge_hammerhead" remote="github" revision="n" />  
 
